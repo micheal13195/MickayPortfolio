@@ -304,27 +304,27 @@ p {
     margin-top: -25px;
 }
 .bottom {
-    padding: 30px 15px;
-    background-color: #f5f7f9;
+    background-color: #e5ecf1;
 }
-
-
-/* For devices with a max width of 768px (tablets and small screens) */
-@media (max-width: 768px) {
-    .container {
-        padding: 5px;
-    }
-    .title h1 {
-        font-size: 2em;
-    }
+.sec-bottom li {
+    list-style-type: none;
+    grid-auto-flow: column;
+    display: inline;
+    margin-right: 15px;
+    text-align: left;
 }
-
-/* For devices with a max width of 480px (mobile phones) */
-@media (max-width: 480px) {
-    .container {
-        padding: 3px;
-    }
-    .title h1 {
-        font-size: 1.5em;
-    }
+.sec-bottom li {
+    text-decoration: none;
+    margin: 10px;
+    font-size: 20px;
+    color: rgb(195, 66, 66);
+}
+.sec-bottom a[href*="stackoverflow"] i {
+    color: #f48024;
+}
+.sec-bottom a {
+    text-decoration: none;
+    color: black; /* Icon color */
+    font-size: 24px; /* Adjust icon size */
+    transition: color 0.3s; /* Smooth transition */
 }
