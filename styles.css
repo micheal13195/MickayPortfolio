@@ -309,96 +309,22 @@ p {
 }
 
 
-// Small Devices
-@media only screen and (max-width : 768px) {
-
-    header {
-        position: fixed;
-        display: none;
-        z-index: 999;
-        animation: none;
-        bottom: 0;
-        height: 100%;
+/* For devices with a max width of 768px (tablets and small screens) */
+@media (max-width: 768px) {
+    .container {
+        padding: 5px;
     }
-
-    #mobile-menu-open, #mobile-menu-close {
-        display: block;
+    .title h1 {
+        font-size: 2em;
     }
-
-    #menu {
-        height: 100%;
-        overflow-y: auto;
-        box-shadow: none;
-        border-radius: 0;
-        width: 100%;
-
-        li {
-            display: block;
-            margin-bottom: 10px;
-        }
-    }
-
-    #lead-content {
-        h1 {
-            font-size: 2em;
-        }
-
-        h2 {
-            font-size: 1.3em;
-        }
-
-        a {
-            padding: 10px 20px;
-        }
-    }
-
-    #lead-down {
-        display: none;
-    }
-
-    .education-block {
-        h3, span {
-            float: none;
-        }
-    }
-
-    .project-image {
-        display: none;
-    }
-
-    .project-info {
-        position: relative;
-        margin: 0;
-        padding: 30px 15px;
-        top: auto;
-        transform: none;
-    }
-
-    footer {
-        text-align: center;
-    }
-
-    .social {
-        text-align: center;
-    }
-
 }
 
-@media only screen and (max-width : 480px) {
-
-    #lead-content {
-        h1 {
-            font-size: 1.5em;
-        }
-
-        h2 {
-            font-size: 1em;
-        }
-
-        a {
-            font-size: 0.9em;
-            padding: 5px 10px;
-        }
+/* For devices with a max width of 480px (mobile phones) */
+@media (max-width: 480px) {
+    .container {
+        padding: 3px;
     }
-
+    .title h1 {
+        font-size: 1.5em;
+    }
 }
