@@ -328,3 +328,18 @@ p {
     font-size: 24px; /* Adjust icon size */
     transition: color 0.3s; /* Smooth transition */
 }
+.sec-bottom a[href*="github"] i {
+    color: #333;
+}
+
+.sec-bottom a[href*="linkedin"] i {
+    color: #0077b5;
+}
+
+.sec-bottom a[href*="facebook"] i {
+    color: #3b5998;
+}
+
+.sec-bottom a[href*="twitter"] i {
+    color: #1da1f2;
+}
